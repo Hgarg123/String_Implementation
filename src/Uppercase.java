@@ -5,5 +5,6 @@ public class Uppercase {
         Scanner obj = new Scanner(System.in);
         String str = obj.nextLine();
         String str2 = str.toUpperCase();
+        System.out.println(str2);
     }
 }
