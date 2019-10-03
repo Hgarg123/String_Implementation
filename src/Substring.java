@@ -5,7 +5,7 @@ public class Substring {
         String substring = obj.nextLine();
         int index = obj.nextInt();
         String substring1 = substring.substring(index);
-
+        System.out.println(substring1);
 
     }
 }
