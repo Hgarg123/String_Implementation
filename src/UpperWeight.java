@@ -5,7 +5,7 @@ public class UpperWeight {
         Scanner obj = new Scanner(System.in);
         String str = obj.nextLine();
         for (int i = 0; i < str.length(); i++) {
-
+            char character = str.charAt(i);
 
         }
     }
