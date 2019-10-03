@@ -4,5 +4,6 @@ public class Uppercase {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         String str = obj.nextLine();
+        String str2 = str.toUpperCase();
     }
 }
