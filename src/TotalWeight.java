@@ -6,8 +6,7 @@ public class TotalWeight {
         int sum = 0;
         for (int i = 0; i < str.length(); i++) {
             char character = str.charAt(i);
-            int ascii = (int) character;
-            sum = sum + ascii;
+            sum = sum + (int) character;
         }
         System.out.println(sum);
     }
