@@ -5,11 +5,15 @@ public class ActualWeight {
         Scanner obj = new Scanner(System.in);
         String str = obj.nextLine();
         int sumOfUpperWeight = 0;
+        int sumofLowerWeight = 0;
         for (int i = 0; i < str.length(); i++) {
             char character = str.charAt(i);
             if (character >= 'A' && character <= 'Z') {
                 sumOfUpperWeight = sumOfUpperWeight + (int) character;
             }
+
+
+        }
         }
 
     }
