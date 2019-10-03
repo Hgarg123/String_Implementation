@@ -11,6 +11,6 @@ public class UpperWeight {
                 sum = sum + (int) character;
             }
         }
-
+        System.out.println(sum);
     }
 }
