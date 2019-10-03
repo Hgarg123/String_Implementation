@@ -10,7 +10,7 @@ public class UpperWeight {
             if (character >= 'A' && character <= 'Z') {
 
             }
-
         }
+
     }
 }
