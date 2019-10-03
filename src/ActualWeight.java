@@ -15,6 +15,10 @@ public class ActualWeight {
 
             }
         }
+        int absoluteWeight = sumOfUpperWeight - sumofLowerWeight;
+        if (absoluteWeight >= 0) {
+
+        }
 
 
     }
