@@ -9,6 +9,6 @@ public class TotalWeight {
             int ascii = (int) character;
             sum = sum + ascii;
         }
-
+        System.out.println(sum);
     }
 }
