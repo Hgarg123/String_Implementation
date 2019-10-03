@@ -8,6 +8,10 @@ public class FormatString {
         for (int i = 0; i < str.length(); i++) {
             System.out.print(i + "\t");
         }
-
+        System.out.println("");
+        System.out.print("chars:\t");
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i) + "\t");
+        }
     }
 }
