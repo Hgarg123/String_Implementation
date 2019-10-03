@@ -10,11 +10,12 @@ public class ActualWeight {
             char character = str.charAt(i);
             if (character >= 'A' && character <= 'Z') {
                 sumOfUpperWeight = sumOfUpperWeight + (int) character;
+            } else if (character >= 'a' && character <= 'z') {
+                sumofLowerWeight = sumofLowerWeight + (int) character;
+
             }
-
-
         }
-        }
+
 
     }
 }
