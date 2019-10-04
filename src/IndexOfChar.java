@@ -4,7 +4,7 @@ public class IndexOfChar {
         Scanner obj = new Scanner(System.in);
         String str = obj.nextLine();
         char character = obj.next().charAt(0);
-
+        System.out.println(str.indexOf(character));
     }
 
 }
